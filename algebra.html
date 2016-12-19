@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Страна под названием "Математика"</title>
+
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="js/init.js" type="text/javascript"></script>
+  <script src="js/imagemapster.js" type="text/javascript"></script>
+
+  <style>
+    #map g{
+	    stroke: #333;
+        stroke-width: 1;
+	}
+	#top{
+		fill:#f46;
+	}
+	#ob{
+		fill:#18FF58;
+	}
+	#dif{
+		fill:orange;
+	}
+	#lin{
+		fill:#E2E098;
+	}
+	#univ{
+		fill:#817E1D;
+	}
+	#komb{
+		fill:#1D5D81;
+	}
+	
+	#teor{
+		fill:#853;
+	}
+	#geo{
+		fill:#00a7f0;
+	}
+	#map g:hover{
+		transition:.8s fill;
+		fill:#ee1;
+	}
+	  </style>
+ 
+  </head>
+  <body>
+  	<div class='wrapper'>
+  		<header>
+  			<nav class='header-menu'>
+  				<a href="#">
+  					<img src="img/logo.png" width="70px" height="70px">
+  				</a>
+  				
+  				<ul class='main-menu'>
+  				<a href="index.html">
+  					<li>Главная</li>
+  				</a>
+  				<a href="about.html">
+  					<li>О проекте</li>
+  				</a>
+  					
+  					<a href="map.html">
+  					<li>Карта</li>
+  				</a>
+  				<a href="#">
+  					<li>Создатели</li>
+  				</a>
+  				<a href="#">
+  					<li>Помощь проекту</li>
+  				</a>	  					
+  				</ul>
+  			</nav>
+  		
+		</header>
+		<section class='math-map'>
+  			<h1>
+  			Алгебра
+  			</h1>
+	</section>
+  		
+<!-- test -->
+
+<p><img src="img/map_alg_final.png" id="map" width="1200" usemap="#map" alt="Навигация"></p>
+<p><map name="map">
+    <area shape="poly" alt="Топологическая алгебра" 
+    coords="130,107, 237,40, 303,130, 299,182, 344,179, 364,215, 305,223, 297,265, 241,274, 256,307,
+            210,337, 169,355, 81,248, 130,107" href="#">
+    <area shape="poly" alt="Общая алгебра" 
+    coords="303,129, 398,123, 409,54, 504,103, 539,152, 593,147, 624,186, 592,215, 542,212, 543,256,
+            578,285, 569,320, 526,341, 518,309, 476,305, 472,273, 439,276, 425,234, 376,250, 364,217,
+            343,177, 298,180, 303,129" href="#">
+    <area shape="poly" alt="Линейная алгебра" 
+    coords="364,217, 375,249, 424,232, 437,276, 474,272, 476,304, 518,309, 526,340, 570,321, 578,287,
+            615,280, 647,328, 598,374, 643,415, 578,445, 596,482, 558,505, 550,480, 512,483, 488,436,
+            444,448, 419,412, 347,418, 340,391, 301,399, 279,351, 245,366, 209,338, 256,307, 236,273,
+            297,267, 305,224, 364,217" href="#">
+    <area shape="poly" alt="Дифференциальная алгебра" 
+    coords="169,356, 209,338, 243,366, 278,352, 300,398, 340,391, 347,417, 419,411, 444,448, 489,436,
+            509,484, 549,479, 557,508, 595,482, 622,480, 616,506, 698,523, 513,549, 370,482, 208,556,
+            100,466, 169,356" href="#">
+    <area shape="poly" alt="Алгебраическая комбинаторика" 
+    coords="505,103, 570,43, 709,89, 769,40, 781,94, 850,93, 867,114, 813,142, 818,182, 865,184, 826,225,
+            836,256, 808,272, 805,299, 756,301, 742,278, 709,289, 671,255, 613,280, 578,285, 543,255,
+            542,212, 591,215, 623,186, 594,147, 540,152, 505,103" href="#">
+    <area shape="poly" alt="Алгебраическая теория чисел" 
+    coords="696,521, 616,506, 624,480, 596,481, 578,445, 643,415, 596,374, 648,327, 612,280, 670,254,
+            710,288, 742,278, 757,300, 805,300, 809,273, 834,257, 826,226, 875,230, 904,285, 869,302,
+            901,322, 890,366, 916,395, 859,405, 875,445, 843,477, 894,512, 845,537, 739,466, 696,521"
+          href="#">
+    <area shape="poly" alt="Универсальная алгебра" 
+    coords="769,40, 984,64, 1025,146, 1135,190, 1161,280, 1045,369, 1041,325, 992,314, 972,334, 935,303,
+            902,322, 869,301, 904,285, 874,229, 826,227, 864,185, 818,182, 814,142, 866,113, 849,92,
+            780,95, 769,40" href="#">
+    <area shape="poly" alt="Алгебраическая геометрия" 
+    coords="903,322, 933,303, 974,333, 991,313, 1042,326, 1044,370, 1116,466, 1091,563, 1021,588, 893,512,
+            844,477, 874,443, 861,407, 915,394, 890,366, 903,322" href="#">
+  </map></p>
+        
+<!-- test -->
+  		<footer>
+  			<p class="copy">
+  				2016. Ульяновский Государственный Педагогический Университет. &copy;
+  			</p>
+  		</footer>
+  		
+  	</div>
+
+               
+    <script type="text/javascript">
+   $("#map").mapster({
+    scaleMap: true,
+    fill: true,
+    fillColor: '2CA7DC',
+    fillOpacity: 0.25,
+    clickNavigate: true
+});  
+</script>    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  </body>
+</html>
